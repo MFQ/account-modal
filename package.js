@@ -13,6 +13,19 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('account-modal.js');
+  api.use([
+    'session@1.0.0',
+		'spacebars@1.0.0',
+		'stylus@1.0.0',
+		'accounts-base@1.0.0',
+		'underscore@1.0.0',
+		'templating@1.0.0',
+		'anti:i18n@0.4.3'
+  ], 'client');
+
+  api.imply('accounts-base',['client', 'server']);
+  api.use(['twbs:bootstrap@3.3.1', 'nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
+  
 });
 
 Package.onTest(function(api) {
