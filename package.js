@@ -29,6 +29,7 @@ Package.onUse(function(api) {
     [
       'client/template_modal.html',
       'client/login_in_modal.html',
+      'client/register_modal.html',
       'client/login_buttons.html'
     ]
   )
