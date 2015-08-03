@@ -25,7 +25,13 @@ Package.onUse(function(api) {
   api.imply('accounts-base',['client', 'server']);
   api.use(['twbs:bootstrap@3.3.1', 'nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
 
-  api.addFiles(['client/login_buttons.html'])
+  api.addFiles(
+    [
+      'client/template_modal.html',
+      'client/login_in_modal.html',
+      'client/login_buttons.html'
+    ]
+  )
 
 });
 
