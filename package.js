@@ -31,7 +31,8 @@ Package.onUse(function(api) {
       'client/login_in_modal.html',
       'client/register_modal.html',
       'client/login_buttons.html',
-      'client/login_in_modal.js'
+      'client/login_in_modal.js',
+      'client/register_modal.js'
     ]
   )
 
