@@ -1,3 +1,3 @@
-Template.loginInModal.events({});
+// Template.loginInModal.events({});
 
-Template.loginInModal.helpers({});
+// Template.loginInModal.helpers({});

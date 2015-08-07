@@ -1,3 +1,3 @@
-Template.registerModal.events({});
+// Template.registerModal.events({});
 
-Template.registerModal.helpers({});
+// Template.registerModal.helpers({});
